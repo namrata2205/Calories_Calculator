@@ -46,7 +46,7 @@ Contains the JavaScript logic for calorie calculations and food tracking.
 7) style.css
 Contains the styling and layout design for the website.
 
-**AUTHOR **
+**AUTHOR**
 Namrata Thorat
 Electronics and Computer Science Engineering Student
 
