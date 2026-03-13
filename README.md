@@ -47,7 +47,8 @@ Contains the JavaScript logic for calorie calculations and food tracking.
 Contains the styling and layout design for the website.
 
 **AUTHOR**
-Namrata Thorat
-Electronics and Computer Science Engineering Student
+- Namrata Thorat
+- Electronics and Computer Science Engineering Student
+
 
 Detailed project outputs and screenshots are available in the Project_Outputs.docx file.
