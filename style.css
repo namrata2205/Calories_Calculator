@@ -1,0 +1,151 @@
+/* ===== GENERAL PAGE STYLES ===== */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f9f6;
+  margin: 0;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+nav {
+  background: #e8f5e9;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #2e7d32;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #1b5e20;
+}
+
+section {
+  background: white;
+  width: 85%;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  text-align: center;
+}
+
+h2 {
+  color: #2e7d32;
+}
+
+.btn, button, input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.btn:hover, button:hover, input[type="submit"]:hover {
+  background-color: #43a047;
+}
+
+/* ===== FORMS, INPUTS, SELECT, TEXTAREA ===== */
+input, select, textarea {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+/* ===== FOOD TRACKER ===== */
+.food-section {
+  text-align: center;
+}
+
+select[multiple] {
+  height: 200px;
+  background: #fdfdfd;
+  border-radius: 5px;
+}
+
+optgroup {
+  font-weight: bold;
+  color: #2e7d32;
+  background: #f1f8e9;
+}
+
+.food-list {
+  margin-top: 20px;
+  text-align: left;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  border-bottom: 1px solid #eee;
+  padding: 5px 0;
+}
+
+/* ===== HEALTH TIPS ===== */
+.tips-list {
+  text-align: left;
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  text-align: center;
+  background: #4CAF50;
+  color: white;
+  padding: 12px 0;
+  margin-top: 25px;
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media screen and (max-width: 768px) {
+  section { width: 95%; }
+  nav a { display: block; margin: 5px 0; }
+  input, select, textarea { width: 95%; }
+}
+.inline-field {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.inline-field label {
+  width: 160px; /* adjusts label width */
+  text-align: right;
+}
+
+.inline-field select {
+  flex: 1;
+  padding: 6px;
+}

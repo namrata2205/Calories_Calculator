@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Tracker</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Food & Calories Tracker</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="calculator.html">Calculator</a>
+    <a href="food.html">Food Tracker</a>
+    <a href="tips.html">Tips</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+<section class="tracker-section">
+  <h2>Track Your Daily Calorie Intake</h2>
+
+<form id="foodForm">
+  <label for="food">Select Food Item(s):</label><br>
+
+  <select id="food" name="food">
+    <option disabled selected>------ SELECT FOOD ITEM -------</option>
+
+    <optgroup label="Healthy Foods">
+      <option value="95">Apple – 95 kcal</option>
+      <option value="105">Banana – 105 kcal</option>
+      <option value="78">Boiled Egg – 78 kcal</option>
+      <option value="154">Dal (1 cup) – 154 kcal</option>
+      <option value="216">Brown Rice – 216 kcal</option>
+      <option value="85">Chapati – 85 kcal</option>
+    </optgroup>
+
+    <optgroup label="Junk Foods">
+      <option value="354">Burger – 354 kcal</option>
+      <option value="285">Pizza Slice – 285 kcal</option>
+      <option value="365">French Fries – 365 kcal</option>
+      <option value="250">Soft Drink (250 ml) – 250 kcal</option>
+      <option value="320">Chocolate Bar – 320 kcal</option>
+    </optgroup>
+  </select>
+<br><br>
+
+  <label for="quantity">Quantity:</label><br>
+  <input type="number" id="quantity" placeholder="e.g., 1, 2, 3..."><br><br>
+
+  <label for="notes">Remarks / Notes:</label><br>
+  <textarea id="notes" rows="4" placeholder="Write what you ate today..."></textarea><br>
+
+  <input type="submit" value="Add Item">
+</form>
+
+<!-- Display Added Foods -->
+<div id="foodList" class="mt-3"></div>
+
+<!-- Result Display -->
+<div id="foodResult" class="alert d-none mt-3"></div>
+
+
+</section>
+
+<footer>
+  <p>© 2025 Calories Calculator | Designed by Namrata Thorat</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
