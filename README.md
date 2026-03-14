@@ -19,8 +19,10 @@ The system first allows users to calculate their estimated daily calorie needs, 
 # Project Workflow
 **1) Calorie Calculator (calculator.html)**
 Users first calculate their estimated daily calorie requirement.
+
 **2) Food Tracker (food.html)**
 Users can then track their daily calorie intake by selecting food items and adding their kcal values.
+
 **3) Comparison**
 This helps users monitor whether their calorie intake matches their daily requirement.
 
