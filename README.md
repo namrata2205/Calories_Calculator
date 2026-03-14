@@ -28,25 +28,25 @@ The system first allows users to calculate their estimated daily calorie needs, 
 
 # File Description
 **1) index.html**
-Home page that introduces the application and provides navigation to other pages.
+- Home page that introduces the application and provides navigation to other pages.
 
 **2) calculator.html**
-Calculates the estimated daily calorie requirement of the user.
+- Calculates the estimated daily calorie requirement of the user.
 
 **3) food.html**
-Allows users to select food items and track daily calorie intake.
+- Allows users to select food items and track daily calorie intake.
 
 **4) tips.html**
-Provides health and fitness tips.
+- Provides health and fitness tips.
 
 **5) contact.html**
-Contact page for user feedback or inquiries.
+- Contact page for user feedback or inquiries.
 
 **6) script.js**
-Contains the JavaScript logic for calorie calculations and food tracking.
+- Contains the JavaScript logic for calorie calculations and food tracking.
 
 **7) style.css**
-Contains the styling and layout design for the website.
+- Contains the styling and layout design for the website.
 
 # AUTHOR
 - Namrata Thorat
